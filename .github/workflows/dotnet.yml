@@ -3,7 +3,7 @@ name: .net restore and build
 on: 
   workflow_dispatch:
   push:
-    branches: [ mbrm ]
+    branches: [ develop ]
     paths:
       - 'CICD/application/VersionEndpoint/**'
 
