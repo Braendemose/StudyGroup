@@ -13,7 +13,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v1
         with:
-          - dotnet-verion: '6.0.x'
+          dotnet-verion: '6.0.x'
       - run: dotnet restore 'CICD/application/Apps.sln'
       - run: dotnet build 'CICD/application/Apps.sln' --no-restore
     
